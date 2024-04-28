@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>
+            Assignment 2: 9 icons
+        </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+    </head>
+
+    <body style="background-color: rgb(253, 248, 234);">
+
+
+        <img id="icon1" src="img/1.png" width="200"/>
+        <img id="icon2" src="img/2.png" width="125"/>
+        <img id="icon3" src="img/3.png" width="150"/>
+        <img id="icon4" src="img/4.png" width="150"/>
+        <img id="icon5" src="img/5.png" width="150"/>
+        <img id="icon6" src="img/6.png" width="150"/>
+        <img id="icon7" src="img/7.png" width="150"/>
+        <img id="icon8" src="img/8.png" width="150"/>
+        <img id="icon9" src="img/9.png" width="150"/>
+
+        <script>
+            var sound1 = new buzz.sound("sound/flag.wav");
+            var sound2 = new buzz.sound("sound/bag.wav");
+            var sound3 = new buzz.sound("sound/pirate ship.wav");
+            var sound4 = new buzz.sound("sound/wheel.wav");
+            var sound5 = new buzz.sound("sound/books.wav");
+            var sound6 = new buzz.sound("sound/map.wav");
+            var sound7 = new buzz.sound("sound/telescope.wav");
+            var sound8 = new buzz.sound("sound/dagger.wav");
+            var sound9 = new buzz.sound("sound/coins.wav");
+
+            window.onload = function() {
+              document.getElementById('icon1').addEventListener('mouseover', function () {sound1.play(); });
+              document.getElementById('icon2').addEventListener('mouseover', function () {sound2.play(); });
+              document.getElementById('icon3').addEventListener('mouseover', function () {sound3.play(); });
+              document.getElementById('icon4').addEventListener('mouseover', function () {sound4.play(); });
+              document.getElementById('icon5').addEventListener('mouseover', function () {sound5.play(); });
+              document.getElementById('icon6').addEventListener('mouseover', function () {sound6.play(); });
+              document.getElementById('icon7').addEventListener('mouseover', function () {sound7.play(); });
+              document.getElementById('icon8').addEventListener('mouseover', function () {sound8.play(); });
+              document.getElementById('icon9').addEventListener('mouseover', function () {sound9.play(); });
+            };
+        </script>
+
+
+    </body>
+
+</html>
